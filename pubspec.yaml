@@ -1,0 +1,35 @@
+name: style_vibe
+description: Una app de análisis de outfits con IA
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Supabase
+  supabase_flutter: ^2.5.6
+  
+  # Gestión de estado
+  flutter_riverpod: ^2.5.1
+  
+  # Selección de imágenes
+  image_picker: ^1.0.7
+  
+  # Peticiones HTTP (para Claude API)
+  dio: ^5.4.0
+  http: ^1.2.0
+  
+  # UI extras
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
