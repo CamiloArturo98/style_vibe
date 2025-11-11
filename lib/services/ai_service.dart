@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class AIService {
   // ⚠️ REEMPLAZA CON TU API KEY DE OPENROUTER
-  static const String _apiKey = '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';
+  static const String _apiKey = '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';
   static const String _baseUrl = 'https://openrouter.ai/api/v1/chat/completions';
 
   static void initialize() {
