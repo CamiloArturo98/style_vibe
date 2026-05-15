@@ -90,10 +90,6 @@ http://localhost:4200
 
 ---
 
-## Preview
-
-<img width="100%" src="YOUR_SCREENSHOT_URL"/>
-
 ---
 
 ## Project Status
